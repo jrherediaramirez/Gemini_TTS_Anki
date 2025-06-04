@@ -1,0 +1,11 @@
+﻿{
+    "package": "gemini_tts",
+    "name": "Gemini TTS",
+    "author": "Your Name",
+    "version": "1.0.0",
+    "description": "Text-to-Speech and AI assistance using Google Gemini",
+    "min_point_version": 0,
+    "max_point_version": 0,
+    "homepage": "",
+    "tags": ["TTS", "AI", "Gemini"]
+}
