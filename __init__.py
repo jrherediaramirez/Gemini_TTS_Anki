@@ -33,6 +33,11 @@ def check_first_run():
 def show_gemini_dialog():
     """Show the main Gemini dialog"""
     try:
+        # Add addon directory to path for gui imports
+        addon_dir = str(Path(__file__).parent)
+        if addon_dir not in sys.path:
+            sys.path.insert(0, addon_dir)
+            
         from gui.main_dialog import show_gemini_dialog as show_dialog
         show_dialog()
     except Exception as e:
